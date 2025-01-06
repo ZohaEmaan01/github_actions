@@ -33,7 +33,7 @@ jobs:
           huggingface-cli repo create "ZohaEmaan01/iris-flower-predictor" --type space
           git clone https://huggingface.co/spaces/ZohaEmaan01/iris-flower-predictor
           cd iris-flower-predictor
-          cp -r ../* . 
-          git add . 
-          git commit -m "Deploy model" 
+          cp -r ../* .
+          git add .
+          git commit -m "Deploy model"
           git push
